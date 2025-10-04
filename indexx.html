@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>East Midlands Legal Partners</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://unpkg.com/feather-icons"></script>
+    <style>
+        .hero-overlay {
+            background-color: rgba(0, 0, 0, 0.5);
+        }
+        .smooth-scroll {
+            scroll-behavior: smooth;
+        }
+        .service-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+        }
+    </style>
+</head>
+<body class="smooth-scroll font-sans">
+    <!-- Navbar -->
+    <nav class="bg-white shadow-md sticky top-0 z-50">
+        <div class="container mx-auto px-6 py-4">
+            <div class="flex justify-between items-center">
+                <!-- Logo -->
+                <div class="flex items-center">
+                    <div class="text-2xl font-bold text-gray-800">
+                        <span class="text-blue-800">East Midlands</span>
+                        <span class="text-gray-600">Legal Partners</span>
+                    </div>
+                </div>
+                
+                <!-- Nav Links -->
+                <div class="hidden md:flex space-x-8">
+                    <a href="#" class="text-blue-800 font-medium">Home</a>
+                    <a href="#about" class="text-gray-600 hover:text-blue-800 transition">About Us</a>
+                    <a href="#associates" class="text-gray-600 hover:text-blue-800 transition">Our Solicitors</a>
+                    <a href="#services" class="text-gray-600 hover:text-blue-800 transition">Areas of Practice</a>
+                    <a href="#reviews" class="text-gray-600 hover:text-blue-800 transition">Client Reviews</a>
+                </div>
+                
+                <!-- Mobile menu button -->
+                <div class="md:hidden">
+                    <button class="text-gray-600 focus:outline-none">
+                        <i data-feather="menu"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="relative h-screen flex items-center justify-center bg-gray-900">
+        <img src="http://static.photos/legal/1920x1080/1" alt="Courtroom" class="absolute inset-0 w-full h-full object-cover">
+        <div class="hero-overlay absolute inset-0"></div>
+        <div class="container mx-auto px-6 relative z-10 text-center text-white">
+            <h1 class="text-4xl md:text-6xl font-bold mb-6">Expert guidance in inheritance, estate law, and human rights.</h1>
+            <p class="text-xl md:text-2xl mb-8">Justice for every client, clarity in every case.</p>
+            <a href="#about" class="bg-blue-800 hover:bg-blue-700 text-white px-8 py-3 rounded-md font-medium transition duration-300 inline-block">
+                Learn More
+            </a>
+        </div>
+    </section>
+
+    <!-- Why Choose Us Section -->
+    <section class="py-20 bg-gray-50">
+        <div class="container mx-auto px-6">
+            <h2 class="text-3xl font-bold text-center mb-12 text-gray-800">Why Choose Our Firm</h2>
+            
+            <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+                <!-- Card 1 -->
+                <div class="bg-white p-6 rounded-lg shadow-md text-center transition duration-300 hover:shadow-lg">
+                    <div class="text-blue-800 mb-4">
+                        <i data-feather="award" class="w-12 h-12 mx-auto"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-2">Award-Winning</h3>
+                    <p class="text-gray-700">Recognized excellence in legal services</p>
+                </div>
+                
+                <!-- Card 2 -->
+                <div class="bg-white p-6 rounded-lg shadow-md text-center transition duration-300 hover:shadow-lg">
+                    <div class="text-blue-800 mb-4">
+                        <i data-feather="clock" class="w-12 h-12 mx-auto"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-2">24/7 Availability</h3>
+                    <p class="text-gray-700">We're here when you need us</p>
+                </div>
+                
+                <!-- Card 3 -->
+                <div class="bg-white p-6 rounded-lg shadow-md text-center transition duration-300 hover:shadow-lg">
+                    <div class="text-blue-800 mb-4">
+                        <i data-feather="dollar-sign" class="w-12 h-12 mx-auto"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-2">Fair & Flexible Fees</h3>
+                    <p class="text-gray-700">Transparent pricing with payment plans</p>
+                </div>
+                
+                <!-- Card 4 -->
+                <div class="bg-white p-6 rounded-lg shadow-md text-center transition duration-300 hover:shadow-lg">
+                    <div class="text-blue-800 mb-4">
+                        <i data-feather="shield" class="w-12 h-12 mx-auto"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-2">Trusted Expertise</h3>
+                    <p class="text-gray-700">Decades of combined legal experience</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Us Section -->
+    <section id="about" class="py-20 bg-white">
+        <div class="container mx-auto px-6">
+            <h2 class="text-3xl font-bold text-center mb-12 text-gray-800">About Us</h2>
+            
+            <div class="max-w-4xl mx-auto">
+                <div class="bg-gray-50 p-8 rounded-lg shadow-lg">
+                    <p class="text-gray-700 mb-6">
+                        East Midlands Legal Partners is a trusted East Midlands law firm dedicated to delivering clear, practical, and client-focused legal solutions. We specialize in inheritance and estate law, providing expert guidance in wills, probate, succession planning, and inheritance disputes. Our goal is to protect family legacies while ensuring every client receives the support and representation they deserve.
+                    </p>
+                    
+                    <p class="text-gray-700 mb-6">
+                        Alongside our estate practice, we are committed human rights advocates. From property rights to civil liberties, we stand with individuals and communities, offering strong legal representation in cases where fairness and justice are at stake.
+                    </p>
+                    
+                    <p class="text-gray-700">
+                        Our reputation is built on integrity, professionalism, and results. Whether you are securing your family's future, resolving a complex estate matter, or defending your fundamental rights, East Midlands Legal Partners is here to provide trusted legal support every step of the way.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="py-20 bg-gray-50">
+        <div class="container mx-auto px-6">
+            <h2 class="text-3xl font-bold text-center mb-12 text-gray-800">Areas of Practice</h2>
+            <p class="text-center text-gray-600 max-w-2xl mx-auto mb-12">
+                Comprehensive legal services tailored to meet your specific needs, from complex litigation to everyday legal matters.
+            </p>
+            
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Service 1 -->
+                <div class="bg-white rounded-lg overflow-hidden shadow-md service-card transition duration-300">
+                    <img src="http://static.photos/legal/640x360/1" alt="Inheritance Law" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-xl font-semibold mb-2 text-blue-800">Inheritance Law</h3>
+                        <p class="text-gray-700">Expert guidance in wills, probate, and estate planning to protect your family's future.</p>
+                    </div>
+                </div>
+                
+                <!-- Service 2 -->
+                <div class="bg-white rounded-lg overflow-hidden shadow-md service-card transition duration-300">
+                    <img src="http://static.photos/legal/640x360/2" alt="Human Rights" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-xl font-semibold mb-2 text-blue-800">Human Rights</h3>
+                        <p class="text-gray-700">Protecting fundamental freedoms and civil liberties through strong legal advocacy.</p>
+                    </div>
+                </div>
+                
+                <!-- Service 3 -->
+                <div class="bg-white rounded-lg overflow-hidden shadow-md service-card transition duration-300">
+                    <img src="http://static.photos/legal/640x360/3" alt="Estate Planning" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-xl font-semibold mb-2 text-blue-800">Estate Planning</h3>
+                        <p class="text-gray-700">Strategic solutions to preserve and transfer wealth according to your wishes.</p>
+                    </div>
+                </div>
+                
+                <!-- Service 4 -->
+                <div class="bg-white rounded-lg overflow-hidden shadow-md service-card transition duration-300">
+                    <img src="http://static.photos/legal/640x360/4" alt="Probate Services" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-xl font-semibold mb-2 text-blue-800">Probate Services</h3>
+                        <p class="text-gray-700">Compassionate guidance through the probate process during difficult times.</p>
+                    </div>
+                </div>
+                
+                <!-- Service 5 -->
+                <div class="bg-white rounded-lg overflow-hidden shadow-md service-card transition duration-300">
+                    <img src="http://static.photos/legal/640x360/5" alt="Civil Liberties" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-xl font-semibold mb-2 text-blue-800">Civil Liberties</h3>
+                        <p class="text-gray-700">Defending your constitutional rights against unlawful government actions.</p>
+                    </div>
+                </div>
+                
+                <!-- Service 6 -->
+                <div class="bg-white rounded-lg overflow-hidden shadow-md service-card transition duration-300">
+                    <img src="http://static.photos/legal/640x360/6" alt="Property Rights" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-xl font-semibold mb-2 text-blue-800">Property Rights</h3>
+                        <p class="text-gray-700">Protecting your real estate interests through comprehensive legal strategies.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Associates Section -->
+    <section id="associates" class="py-20 bg-white">
+        <div class="container mx-auto px-6">
+            <h2 class="text-3xl font-bold text-center mb-12 text-gray-800">Our Solicitors</h2>
+            
+            <div class="max-w-4xl mx-auto grid md:grid-cols-2 gap-8">
+                <!-- Associate 1 -->
+                <div class="bg-gray-50 p-8 rounded-lg shadow-md">
+                    <div class="flex items-start mb-6">
+                        <img src="https://i.postimg.cc/tgT1NjGm/IMG-20251003-092025-234.jpg" alt="George Smith" class="w-20 h-20 rounded-full mr-4 object-cover">
+<div>
+                            <h3 class="text-2xl font-semibold text-blue-800">George Smith Esq.</h3>
+                            <p class="text-gray-600">Senior Partner, Inheritance Law Specialist</p>
+                        </div>
+                    </div>
+                    <p class="text-gray-700 mb-4">With over 15 years of experience in estate law, George brings meticulous attention to detail and compassionate counsel to every case.</p>
+                    <div class="text-yellow-400 mb-4">
+                                            
+                    </div>
+                </div>
+                
+                <!-- Associate 2 -->
+                <div class="bg-gray-50 p-8 rounded-lg shadow-md">
+                    <div class="flex items-start mb-6">
+                        <img src="http://static.photos/people/200x200/2" alt="Lonnie Thompson" class="w-20 h-20 rounded-full mr-4 object-cover">
+                        <div>
+                            <h3 class="text-2xl font-semibold text-blue-800">Lonnie Thompson Esq.</h3>
+                            <p class="text-gray-600">Partner, Human Rights Advocate</p>
+                        </div>
+                    </div>
+                    <p class="text-gray-700 mb-4">A passionate defender of civil liberties, Lonnie has successfully argued numerous high-profile human rights cases.</p>
+                    <div class="flex items-center mb-2">
+                        <i data-feather="mail" class="mr-2 text-gray-600"></i>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Reviews Section -->
+    <section id="reviews" class="py-20 bg-gray-50">
+        <div class="container mx-auto px-6">
+            <h2 class="text-3xl font-bold text-center mb-12 text-gray-800">Client Testimonials</h2>
+            
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Review 1 -->
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <div class="flex items-center mb-4">
+                        <div class="text-yellow-400 mr-2">
+                            <i data-feather="star" class="w-5 h-5 fill-current"></i>
+                                                   </div>
+                    </div>
+                    <p class="text-gray-700 mb-4">"East Midlands Legal Partners handled my mother's estate with such care and professionalism during a difficult time. They made the process clear and manageable."</p>
+                    <div class="flex items-center">
+                        <img src="http://static.photos/people/200x200/3" alt="Sarah J." class="w-10 h-10 rounded-full mr-3 object-cover">
+                        <div>
+                            <h4 class="font-medium">Sarah J.</h4>
+                            <p class="text-sm text-gray-600">Inheritance Client</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Review 2 -->
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <div class="flex items-center mb-4">
+                        <div class="text-yellow-400 mr-2">
+                            <i data-feather="star" class="w-5 h-5 fill-current"></i>
+                                                </div>
+                    </div>
+                    <p class="text-gray-700 mb-4">"Lonnie Thompson fought tirelessly for my civil rights case. Their dedication and legal expertise resulted in a landmark decision that will help others in similar situations."</p>
+                    <div class="flex items-center">
+                        <img src="http://static.photos/people/200x200/4" alt="Michael T." class="w-10 h-10 rounded-full mr-3 object-cover">
+                        <div>
+                            <h4 class="font-medium">Michael T.</h4>
+                            <p class="text-sm text-gray-600">Human Rights Client</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Review 3 -->
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <div class="flex items-center mb-4">
+                        <div class="text-yellow-400 mr-2">
+                            <i data-feather="star" class="w-5 h-5 fill-current"></i>
+                                                  </div>
+                    </div>
+                    <p class="text-gray-700 mb-4">"The team provided exceptional estate planning services. They explained every option clearly and helped create a plan that gives me peace of mind about my family's future."</p>
+                    <div class="flex items-center">
+                        <img src="http://static.photos/people/200x200/5" alt="Emily R." class="w-10 h-10 rounded-full mr-3 object-cover">
+                        <div>
+                            <h4 class="font-medium">Emily R.</h4>
+                            <p class="text-sm text-gray-600">Estate Planning Client</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="py-16 bg-blue-800 text-white">
+        <div class="container mx-auto px-6 text-center">
+            <h2 class="text-3xl font-bold mb-6">Ready to discuss your legal needs?</h2>
+            <p class="text-xl mb-8 max-w-2xl mx-auto">Contact us today for a confidential consultation.</p>
+            <a href="#associates" class="bg-white text-blue-800 hover:bg-gray-100 px-8 py-3 rounded-md font-medium transition duration-300 inline-block">
+                Get in Touch
+            </a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-white py-8">
+        <div class="container mx-auto px-6">
+            <div class="grid md:grid-cols-4 gap-8">
+                <div>
+                    <div class="text-2xl font-bold mb-4">
+                        <span class="text-blue-400">East Midlands</span>
+                        <span class="text-gray-300">Legal Partners</span>
+                    </div>
+                    <p class="text-gray-400">Justice for every client, clarity in every case.</p>
+                </div>
+                
+                <div>
+                    <h3 class="text-lg font-semibold mb-4">Quick Links</h3>
+                    <ul class="space-y-2">
+                        <li><a href="#" class="text-gray-400 hover:text-white transition">Home</a></li>
+                        <li><a href="#about" class="text-gray-400 hover:text-white transition">About Us</a></li>
+                        <li><a href="#services" class="text-gray-400 hover:text-white transition">Areas of Practice</a></li>
+                        <li><a href="#associates" class="text-gray-400 hover:text-white transition">Our Solicitors</a></li>
+                    </ul>
+                </div>
+                
+                <div>
+                    <h3 class="text-lg font-semibold mb-4">Contact</h3>
+                    <ul class="space-y-2">
+                        <li class="flex items-center">
+                            <i data-feather="map-pin" class="w-4 h-4 mr-2"></i>
+                            <span class="text-gray-400">4th Floor, Lincoln House 295, High Holborn London, WC1V 7JH. UK.</span>
+                        </li>
+                        <li class="flex items-center">
+                            <i data-feather="phone" class="w-4 h-4 mr-2"></i>
+                            <span class="text-gray-400">+44 74 50928175 or +44 20 7946 0958</span>
+                        </li>
+                        <li class="flex items-center">
+                            <i data-feather="mail" class="w-4 h-4 mr-2"></i>
+                            <span class="text-gray-400">Georgesmithemlawandsolicitor@outlook.com or Esqlonniethompson@outlook.com</span>
+                        </li>
+                    </ul>
+                </div>
+                
+                <div>
+                    <h3 class="text-lg font-semibold mb-4">Hours</h3>
+                    <ul class="space-y-2">
+                        <li class="flex justify-between">
+                            <span class="text-gray-400">Monday-Friday</span>
+                            <span class="text-gray-300">9AM-5PM</span>
+                        </li>
+                        <li class="flex justify-between">
+                            <span class="text-gray-400">Saturday</span>
+                            <span class="text-gray-300">By Appointment</span>
+                        </li>
+                        <li class="flex justify-between">
+                            <span class="text-gray-400">Sunday</span>
+                            <span class="text-gray-300">Closed</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="border-t border-gray-800 mt-8 pt-8 text-center text-gray-400 text-sm">
+                &copy; 2023 East Midlands Legal Partners. All rights reserved.
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        feather.replace();
+    </script>
+</body>
+</html>
